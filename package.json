@@ -12,7 +12,8 @@
     "binding.c",
     "binding.js",
     "CMakeLists.txt",
-    "prebuilds"
+    "prebuilds",
+    "data"
   ],
   "addon": true,
   "scripts": {
@@ -31,5 +32,9 @@
   "devDependencies": {
     "brittle": "^3.4.0",
     "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "bare-fs": "^3.0.2",
+    "bare-path": "^3.0.0"
   }
 }
